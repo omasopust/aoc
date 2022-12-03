@@ -2,8 +2,8 @@ const _ = require('lodash')
 const fs = require('fs')
 
 const TIME = true
-const END_PUZZLE = 2
-const START_PUZZLE = 1
+const END_PUZZLE = 3
+const START_PUZZLE = 3
 const FORCE_SKIP = []
 
 const puzzles = [..._.range(START_PUZZLE,END_PUZZLE + 1).map(n => n < 10 ? `0${n}` : n.toString())]
@@ -48,8 +48,23 @@ const puzzleInput = fs.readFileSync('./${puzzle}.input').toString().split('\\n')
 const testData1 = \`\`.split('\\n')
 // PART 1
 
+const part1 = (input) => {
+    return input
+}
+
+// console.log(part1(testData1))
+console.assert(part1(testData1))
+// console.log(part1(puzzleInput))
 
 // PART 2
+
+const part2 = (input) => {
+    return input
+}
+
+// console.log(part2(testData1))
+console.assert(part2(testData1))
+// console.log(part2(puzzleInput))
 
 	`)
 
