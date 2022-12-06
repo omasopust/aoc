@@ -62,6 +62,4 @@ const part2 = (input) => {
 
 // console.log(part2(testData1))
 console.assert(part2(testData1) === 'MCD')
-console.log(part2(puzzleInput))
-
-	
+// console.log(part2(puzzleInput))
