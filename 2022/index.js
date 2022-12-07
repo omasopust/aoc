@@ -2,8 +2,8 @@ const _ = require('lodash')
 const fs = require('fs')
 
 const TIME = true
-const END_PUZZLE = 6
-const START_PUZZLE = 6
+const END_PUZZLE = 7
+const START_PUZZLE = 7
 const FORCE_SKIP = []
 
 const puzzles = [..._.range(START_PUZZLE,END_PUZZLE + 1).map(n => n < 10 ? `0${n}` : n.toString())]
