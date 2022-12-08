@@ -125,4 +125,4 @@ const part2 = (input) => {
 }
 
 // console.log(part2(testData1))
-console.log(part2(puzzleInput))
+// console.log(part2(puzzleInput))

@@ -2,7 +2,7 @@ const _ = require('lodash')
 const fs = require('fs')
 
 const TIME = true
-const END_PUZZLE = 7
+const END_PUZZLE = 8
 const START_PUZZLE = 7
 const FORCE_SKIP = []
 
